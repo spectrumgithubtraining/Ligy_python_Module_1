@@ -1,0 +1,14 @@
+1.Squared Number
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+for index, num in enumerate(numbers):
+    if index % 2 != 0:
+        squared = num ** 2
+        print(f"The square of the number at index {index} is: {squared}")
+
+2.
+strings = ["apple", "banana", "orange", "kiwi", "grape"]
+
+for index, word in enumerate(strings):
+    if len(word) % 2 != 0:
+        print(f"The word at index {index} with odd length is: {word}")
